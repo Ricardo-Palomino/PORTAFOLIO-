@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Available for new opportunities",
+    "kicker": "Junior Full Stack Developer",
+    "title_1": "Ricardo",
+    "title_2": "Palomino",
+    "subtitle": "I build web applications end to end — from the data schema to the interface — combining backend logic with a carefully crafted frontend.",
+    "cta_projects": "View projects",
+    "cta_contact": "Get in touch",
+    "stack_label": "Stack",
+    "location": "Bogotá, Colombia",
+    "fact_projects": "Own projects",
+    "fact_tech": "Technologies in use",
+    "fact_year": "Currently studying",
+    "study_field": "Systems Eng.",
+    "fact_method": "Working methodology"
+  },
+  "cover": {
+    "greeting": "Welcome —",
+    "hook_line1": "It all starts",
+    "hook_line2": "with a real problem",
+    "tagline": "Every project in this portfolio starts with a real problem and ends in a solution that works.",
+    "cta_enter": "View portfolio"
+  },
+  "about": {
+    "heading": "About me",
+    "p1": "I'm a junior programmer, currently studying <strong>Systems Engineering</strong>, with a year of intensive training in web and backend development. I work with <strong>HTML, CSS, JavaScript, Node.js and Python</strong>, and relational and non-relational databases like <strong>MySQL</strong> and <strong>MongoDB</strong>.",
+    "p2": "I've taken part in individual and team projects applying <strong>Scrum</strong>, combining backend logic with frontend creativity: I look for solutions that are efficient and also feel good to use.",
+    "p3": "My goal is to grow into a full stack developer who brings quality and commitment to every project. I'm defined by discipline, adaptability, and enthusiasm for continuous learning.",
+    "stackLabel": "Technical stack"
+  },
+  "skills": {
+    "heading": "Skills",
+    "intro": "What I use day to day to build, and how I work with others.",
+    "technicalLabel": "Technical",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools & extras"
+    },
+    "softLabel": "Soft skills",
+    "tierAdvanced": "Advanced",
+    "tierSolid": "Solid",
+    "tierGrowing": "Growing",
+    "soft": [
+      "Effective communication",
+      "Teamwork",
+      "Adaptability",
+      "Critical thinking",
+      "Leadership",
+      "Time management",
+      "Continuous learning",
+      "Problem solving"
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "subtitle": "Short case studies: the problem I solved and how I did it.",
+    "problemLabel": "Problem",
+    "solutionLabel": "Solution",
+    "linkLabel": "View repository",
+    "items": [
+      {
+        "title": "GymMaster CLI",
+        "problem": "Small gyms often track members and payments on loose spreadsheets, with no traceability or quick lookups.",
+        "solution": "An interactive Node.js CLI with MongoDB and Inquirer.js: full CRUD, atomic transactions, and advanced queries to manage members from the terminal.",
+        "tags": ["Node.js", "MongoDB", "Inquirer.js"],
+        "link": "https://github.com/DanielSantiagoV/GymMaster_CLI"
+      },
+      {
+        "title": "INNOVA-ASISTE",
+        "problem": "Student attendance tracking is usually scattered across paper lists and uncentralized files.",
+        "solution": "A Python tool that centralizes recording, editing, and querying attendance with a simple, education-focused approach.",
+        "tags": ["Python", "CLI", "JSON"],
+        "link": "https://github.com/Ricardo-Palomino/INNOVA-ASISTE"
+      },
+      {
+        "title": "DataFlix",
+        "problem": "Learning databases from scratch is hard without a free, structured resource that tracks your progress.",
+        "solution": "A web platform with courses, interactive quizzes, and progress tracking, built as a modern, accessible experience.",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "link": "https://github.com/DanielSantiagoV/DataFlix"
+      },
+      {
+        "title": "ShopVerse",
+        "problem": "Practicing a real e-commerce flow needs consistent catalog data, not just static mockups.",
+        "solution": "An online store connected to the FakeStore API, with catalog, filters, and a responsive shopping experience.",
+        "tags": ["HTML", "CSS", "JavaScript", "Tailwind"],
+        "link": "https://github.com/Ricardo-Palomino/proyecto-de-Javascript"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's work together",
+    "desc": "I'm open to new projects, technical challenges, and opportunities to keep growing as a developer. Reach out through whichever channel works best for you."
+  },
+  "footer": {
+    "text": "Ricardo Palomino — Full Stack Developer"
+  }
+}

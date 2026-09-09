@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Disponible para nuevas oportunidades",
+    "kicker": "Desarrollador Full Stack junior",
+    "title_1": "Ricardo",
+    "title_2": "Palomino",
+    "subtitle": "Construyo aplicaciones web de extremo a extremo — del esquema de datos a la interfaz — combinando la lógica del backend con una interfaz cuidada en el frontend.",
+    "cta_projects": "Ver proyectos",
+    "cta_contact": "Escribirme",
+    "stack_label": "Stack",
+    "location": "Bogotá, Colombia",
+    "fact_projects": "Proyectos propios",
+    "fact_tech": "Tecnologías en uso",
+    "fact_year": "Estudiando actualmente",
+    "study_field": "Ing. de Sistemas",
+    "fact_method": "Metodología de trabajo"
+  },
+  "cover": {
+    "greeting": "Bienvenido —",
+    "hook_line1": "Todo empieza",
+    "hook_line2": "con un problema real",
+    "tagline": "Cada proyecto de este portafolio nace de un problema concreto y termina en una solución que funciona.",
+    "cta_enter": "Ver portafolio"
+  },
+  "about": {
+    "heading": "Sobre mí",
+    "p1": "Soy programador junior, actualmente estudiando <strong>Ingeniería de Sistemas</strong>, con un año de preparación intensiva en desarrollo web y backend. Trabajo con <strong>HTML, CSS, JavaScript, Node.js y Python</strong>, y bases de datos relacionales y no relacionales como <strong>MySQL</strong> y <strong>MongoDB</strong>.",
+    "p2": "He participado en proyectos individuales y grupales aplicando <strong>Scrum</strong>, combinando la lógica del backend con la creatividad del frontend: busco soluciones eficientes que además se sientan bien de usar.",
+    "p3": "Mi objetivo es consolidarme como desarrollador full stack capaz de aportar calidad y compromiso en cada proyecto. Me caracterizan la disciplina, la adaptabilidad y el entusiasmo por seguir aprendiendo.",
+    "stackLabel": "Stack técnico"
+  },
+  "skills": {
+    "heading": "Habilidades",
+    "intro": "Lo que uso a diario para construir, y cómo trabajo con otros.",
+    "technicalLabel": "Técnicas",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Herramientas y extras"
+    },
+    "softLabel": "Blandas",
+    "tierAdvanced": "Avanzado",
+    "tierSolid": "Sólido",
+    "tierGrowing": "En crecimiento",
+    "soft": [
+      "Comunicación efectiva",
+      "Trabajo en equipo",
+      "Adaptabilidad",
+      "Pensamiento crítico",
+      "Liderazgo",
+      "Gestión del tiempo",
+      "Aprendizaje continuo",
+      "Resolución de problemas"
+    ]
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "subtitle": "Estudios de caso breves: el problema que resolví y cómo lo hice.",
+    "problemLabel": "Problema",
+    "solutionLabel": "Solución",
+    "linkLabel": "Ver repositorio",
+    "items": [
+      {
+        "title": "GymMaster CLI",
+        "problem": "Los gimnasios pequeños suelen llevar el control de socios y pagos en hojas sueltas o Excel, sin trazabilidad ni consultas rápidas.",
+        "solution": "Una CLI interactiva en Node.js con MongoDB e Inquirer.js: CRUD completo, transacciones atómicas y consultas avanzadas para gestionar socios desde la terminal.",
+        "tags": ["Node.js", "MongoDB", "Inquirer.js"],
+        "link": "https://github.com/DanielSantiagoV/GymMaster_CLI"
+      },
+      {
+        "title": "INNOVA-ASISTE",
+        "problem": "El seguimiento de asistencia de estudiantes suele quedar disperso entre listas físicas y archivos sin centralizar.",
+        "solution": "Herramienta en Python que centraliza el registro, edición y consulta de asistencias con un enfoque simple y educativo.",
+        "tags": ["Python", "CLI", "JSON"],
+        "link": "https://github.com/Ricardo-Palomino/INNOVA-ASISTE"
+      },
+      {
+        "title": "DataFlix",
+        "problem": "Aprender bases de datos desde cero es difícil sin un recurso gratuito, estructurado y con seguimiento de progreso.",
+        "solution": "Plataforma web con cursos, quizzes interactivos y seguimiento de progreso, pensada como una experiencia moderna y accesible.",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "link": "https://github.com/DanielSantiagoV/DataFlix"
+      },
+      {
+        "title": "ShopVerse",
+        "problem": "Practicar un flujo de e-commerce real requiere datos de catálogo consistentes, no solo maquetas estáticas.",
+        "solution": "Tienda en línea conectada a la FakeStore API, con catálogo, filtros y una experiencia visual y responsiva de compra.",
+        "tags": ["HTML", "CSS", "JavaScript", "Tailwind"],
+        "link": "https://github.com/Ricardo-Palomino/proyecto-de-Javascript"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Trabajemos juntos",
+    "desc": "Estoy abierto a nuevos proyectos, retos técnicos y oportunidades para seguir creciendo como desarrollador. Escríbeme por el canal que prefieras."
+  },
+  "footer": {
+    "text": "Ricardo Palomino — Desarrollador Full Stack"
+  }
+}
