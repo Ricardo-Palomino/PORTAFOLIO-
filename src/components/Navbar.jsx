@@ -22,7 +22,7 @@ export default function Navbar({ theme, toggleTheme }) {
     <nav className="sticky top-0 z-50 backdrop-blur bg-bg/85 border-b border-border">
       <div className="max-w-content mx-auto px-6 md:px-8 h-16 flex items-center justify-between">
         <Link to="home" smooth offset={-80} className="font-mono text-base cursor-pointer">
-          rp<span className="text-accent">/</span>
+          Ricardo P<span className="text-accent">/</span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">

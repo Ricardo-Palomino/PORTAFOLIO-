@@ -94,7 +94,7 @@ export default function Hero() {
         className="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-7 border-t border-border"
       >
         <li>
-          <Counter target={4} className="font-display text-3xl" />
+          <Counter target={10} prefix="+" className="font-display text-3xl" />
           <p className="text-sm text-muted mt-1">{t('hero.fact_projects')}</p>
         </li>
         <li>

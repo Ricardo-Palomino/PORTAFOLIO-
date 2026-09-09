@@ -14,7 +14,7 @@
     "cta_projects": "View projects",
     "cta_contact": "Get in touch",
     "stack_label": "Stack",
-    "location": "Bogotá, Colombia",
+    "location": "Currently living in Santa Marta, Colombia",
     "fact_projects": "Own projects",
     "fact_tech": "Technologies in use",
     "fact_year": "Currently studying",
@@ -93,6 +93,13 @@
         "solution": "An online store connected to the FakeStore API, with catalog, filters, and a responsive shopping experience.",
         "tags": ["HTML", "CSS", "JavaScript", "Tailwind"],
         "link": "https://github.com/Ricardo-Palomino/proyecto-de-Javascript"
+      },
+      {
+        "title": "FoodStars",
+        "problem": "Discovering and sharing trustworthy dining experiences is hard without a centralized platform to explore restaurants and read authentic reviews.",
+        "solution": "A fullstack platform to discover, rate, and share restaurants: restaurant browsing, reviews, and a complete admin panel. React frontend with an Express, Node.js, and MongoDB backend.",
+        "tags": ["React", "Node.js", "Express", "MongoDB"],
+        "link": "https://ricardo-palomino.github.io/Copia-Fronted-FoodStars/"
       }
     ]
   },

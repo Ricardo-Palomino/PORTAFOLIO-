@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
-export default function Counter({ target, className = '' }) {
+export default function Counter({ target, prefix = '', suffix = '', className = '' }) {
   const [ref, isVisible] = useScrollAnimation(0.6);
   const [value, setValue] = useState(0);
 
@@ -21,7 +21,7 @@ export default function Counter({ target, className = '' }) {
 
   return (
     <span ref={ref} className={className}>
-      {value}
+      {prefix}{value}{suffix}
     </span>
   );
 }

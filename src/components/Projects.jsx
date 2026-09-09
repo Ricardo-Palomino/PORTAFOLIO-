@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowUpRight } from 'lucide-react';
 
-const SLUGS = ['gymmaster', 'innova', 'dataflix', 'shopverse'];
+const SLUGS = ['gymmaster', 'innova', 'dataflix', 'shopverse', 'foodstars'];
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -28,7 +28,7 @@ export default function Projects() {
                   src={`/img/${SLUGS[i]}.jpg`}
                   alt={proj.title}
                   onError={() => setBrokenImages((prev) => ({ ...prev, [i]: true }))}
-                  className="project-media-img"
+                  className="project-media-img project-media-img-soft"
                 />
               ) : (
                 <div className="project-media-placeholder">
